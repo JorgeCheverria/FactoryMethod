@@ -1,0 +1,23 @@
+{
+    "name": "jcheverria/factorymethod",
+    "description": "Factory mehtod design pattern implementation",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "10.0.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jorge Cheverria",
+            "email": "jorgecheverria96@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Jcheverria\\FactoryMethod\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Jcheverria\\FactoryMethod\\Tests\\": "tests/"}
+    }
+}
